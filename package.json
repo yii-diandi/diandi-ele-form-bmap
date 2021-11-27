@@ -1,0 +1,81 @@
+{
+  "_from": "vue-ele-form-bmap@^0.1.1",
+  "_id": "vue-ele-form-bmap@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-rlcn51/z5ayeH9OX2jhjtGihs+E=",
+  "_location": "/vue-ele-form-bmap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue-ele-form-bmap@^0.1.1",
+    "name": "vue-ele-form-bmap",
+    "escapedName": "vue-ele-form-bmap",
+    "rawSpec": "^0.1.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.nlark.com/vue-ele-form-bmap/download/vue-ele-form-bmap-0.1.1.tgz",
+  "_shasum": "ae5727e75ff3e5ac9e1fd397da3863b468a1b3e1",
+  "_spec": "vue-ele-form-bmap@^0.1.1",
+  "_where": "F:\\vuecode\\diandi-element-admin",
+  "bugs": {
+    "url": "https://github.com/dream2023/vue-ele-form-bmap/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "vue-baidu-map": "^0.21.22"
+  },
+  "deprecated": false,
+  "description": "vue-ele-form 的 百度地图组件",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.10.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lint-staged": "^8.1.5",
+    "vue": "^2.6.10",
+    "vue-ele-form": "^0.1.7",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "homepage": "https://github.com/dream2023/vue-ele-form-bmap",
+  "keywords": [
+    "vue-ele-form",
+    "baidu map",
+    "baidumap",
+    "百度地图",
+    "vue-baidu-map",
+    "vue-map",
+    "vue-bmap"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "lib/*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "main": "lib/index.js",
+  "name": "vue-ele-form-bmap",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dream2023/vue-ele-form-bmap.git"
+  },
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.1.1"
+}
